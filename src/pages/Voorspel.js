@@ -26,6 +26,7 @@ const Voorspel = () => {
     localStorage.setItem('voorspelling', JSON.stringify(voorsp))
     // hierin word de waarde gemaakt van wat op het bovenste deel van de pagina opgeslagen word
 
+
     console.log(voorsp)
 
     teamlist.map(team => team.played = 0);
@@ -96,6 +97,50 @@ console.log(match)
   return (
 
   <div>
+  <br />
+  <br />
+  <button
+  type="button"
+  onClick={() => setPoule("A")}
+  >poule A</button>
+
+  <button
+  type="button"
+  onClick={() => setPoule("B")}
+  >poule B</button>
+
+  <button
+  type="button"
+  onClick={() => setPoule("C")}
+  >poule C</button>
+
+  <button
+  type="button"
+  onClick={() => setPoule("D")}
+  >poule D</button>
+
+  <button
+  type="button"
+  onClick={() => setPoule("E")}
+  >poule E</button>
+
+  <button
+  type="button"
+  onClick={() => setPoule("F")}
+  >poule F</button>
+
+  <button
+  type="button"
+  onClick={() => setPoule("G")}
+  >poule G</button>
+
+  <button
+  type="button"
+  onClick={() => setPoule("H")}
+  >poule H</button>
+
+
+
   <h1>test</h1>
   {matches.map((match) => {
     const teamone = teamlist.find(team => team.id == match.teamone)
@@ -116,10 +161,12 @@ console.log(match)
         <input type="number" id={"team2_"+match.id} name="team2"  onChange={handleEditChange} value={item.team2} /></td>
     <td>{match.date}<br />{match.time}</td>
   </tr>
+  <br />
 </table>
 //hierin word de voorspellingstabel gemaakt waar je de scores kan invullen
 )}
 )
+
 }
 <br />
 
