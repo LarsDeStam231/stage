@@ -99,56 +99,20 @@ console.log(match)
   <div>
   <br />
   <br />
-  <button
+
+  {poules.map(poule => <button
   type="button"
-  onClick={() => setPoule("A")}
-  >poule A</button>
+  onClick={() => setPoule(poule.id)}
+  >{poule.description}</button>)}
 
-  <button
-  type="button"
-  onClick={() => setPoule("B")}
-  >poule B</button>
-
-  <button
-  type="button"
-  onClick={() => setPoule("C")}
-  >poule C</button>
-
-  <button
-  type="button"
-  onClick={() => setPoule("D")}
-  >poule D</button>
-
-  <button
-  type="button"
-  onClick={() => setPoule("E")}
-  >poule E</button>
-
-  <button
-  type="button"
-  onClick={() => setPoule("F")}
-  >poule F</button>
-
-  <button
-  type="button"
-  onClick={() => setPoule("G")}
-  >poule G</button>
-
-  <button
-  type="button"
-  onClick={() => setPoule("H")}
-  >poule H</button>
-
-
-
-  <h1>test</h1>
-  {matches.map((match) => {
+  <h1>Wedstrijden</h1>
+  {matches.filter(match => match.bracket == poule).map((match) => {
     const teamone = teamlist.find(team => team.id == match.teamone)
     const teamtwo = teamlist.find(team => team.id == match.teamtwo)
     var item = voorspelling.find((thisitem) => thisitem.id == match.id) || {id: match.id, team1: null, team2: null};
     //console.log(item, match);
     //hier zorg ik dat 2 arrays aan elkaar verbonden zijn zodat de code weet welke landen die moet printen op de pagina
-    return (<table key={'match_'+match.id}>
+    return (<table class="prediction" key={'match_'+match.id}>
   <tr>
     <th>thuis</th>
     <th>uit</th>
@@ -169,6 +133,8 @@ console.log(match)
 
 }
 <br />
+
+  <h1>Stand</h1>
 
 
   <table class="standing">
