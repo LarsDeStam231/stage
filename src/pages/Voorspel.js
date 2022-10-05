@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "./styles.css";
 import {teamlist, poules, matches} from './Data.js';
+import { Outlet, Link } from "react-router-dom";
 
 const Voorspel = () => {
 
@@ -96,7 +97,7 @@ console.log(match)
 
   return (
 
-  <div>
+  <div class="outer-div">
   <br />
   <br />
 
@@ -170,11 +171,21 @@ console.log(match)
 
 
   </table>
+
+  <Link to="/knockout">knockoutfase
+  </Link>
+
+
 </div>
 
+
+
+//maak een button die de bovenste 2 tabellen pushed naar een andere tabellen
+//gebruik hiervoor localStorage
 
 //hier staat de tabel met alle gegevens die gemaakt zijn uit de score van de vorige tabel
 )
 }
+
 
 export default Voorspel;
