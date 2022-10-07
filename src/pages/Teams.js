@@ -5,7 +5,8 @@ import {teamlist, poules } from "./Data.js"
 const Teams = () => {
   return (
     <div class="container">
-    <h1>Alle informatie</h1>
+      <h1>Alle informatie</h1>
+    <div class="poulelijst">
     {poules.map((poule) => {
       return (
         <div class="vak">
@@ -16,6 +17,7 @@ const Teams = () => {
         </div>
       )
     })}
+    </div>
 
       <div class="info">
         {poules.map((poule)  => {

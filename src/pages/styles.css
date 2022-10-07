@@ -1,5 +1,6 @@
 .outer-div {
   text-align: center;
+  font-family: arial, sans-serif;
   width: 600px;
   margin: auto;
 
@@ -19,6 +20,7 @@
 }
 
 .container {
+  text-align: center;
   font-family: sans-serif;
   font-style: normal;
   font-size: 15px;
@@ -31,16 +33,22 @@
 }
 
 .vak {
-  float: left;
+
   background-color: white;
-  width: 175px;
+  width: 120px;
   height: 350px;
   padding-left: 15px;
 }
 
+.poulelijst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .team {
   border-style: solid;
-  width: 150px;
+  width: 90px;
   height: 50px;
   vertical-align: middle;
 }
@@ -54,8 +62,8 @@
 
 .record {
   float: left;
-  width: 300px;
-  height: 550px;
+  width: 400px;
+  height: 420px;
   padding: 100px;
 }
 
