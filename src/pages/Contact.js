@@ -19,7 +19,7 @@
          activeSlideIndex={activeSlide}
          activeSlideProps={{
            style: {
-             background: "lightblue"
+             background: "#f1eee7"
            }
          }}
          onRequestChange={setActiveSlide}
@@ -64,12 +64,11 @@
          itemsToShow={1}
          speed={200}
   >
-  <div
+  <div class="contactcarousel"
   style={{
-    background: "lightblue",
+    background: "#f1eee7",
     width: 300,
     height: 200,
-    border: "30px solid white",
     textAlign: "center",
     lineHeight: "140px",
     boxSizing: "border-box",
@@ -84,10 +83,9 @@
 
   <div
     style={{
-      background: "lightblue",
+      background: "#f1eee7",
       width: 300,
       height: 200,
-      border: "30px solid white",
       textAlign: "center",
       lineHeight: "140px",
       boxSizing: "border-box",
@@ -104,10 +102,9 @@
 
   <div
     style={{
-      background: "lightblue",
+      background: "#f1eee7",
       width: 300,
       height: 200,
-      border: "30px solid white",
       textAlign: "center",
       lineHeight: "140px",
       boxSizing: "border-box",

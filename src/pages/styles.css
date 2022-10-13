@@ -1,6 +1,11 @@
+button {
+  background-color: #f1eee7;
+  font-family: Qatar2022Arabic;
+}
+
 .outer-div {
   text-align: center;
-  font-family: arial, sans-serif;
+  font-family: Qatar2022Arabic;
   width: 600px;
   margin: auto;
 
@@ -12,7 +17,9 @@
 }
 
 .begin {
-  font-family: sans-serif;
+  background-color: #f1eee7;
+  color: #8b1638;
+  font-family: Qatar2022Arabic;
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -21,7 +28,7 @@
 
 .container {
   text-align: center;
-  font-family: sans-serif;
+  font-family: Qatar2022Arabic;
   font-style: normal;
   font-size: 15px;
   align-items: center;
@@ -35,8 +42,8 @@
 }
 
 .vak {
-
-  background-color: white;
+  color: #8b1638;
+  background-color: #f1eee7;
   width: 120px;
   height: 350px;
   padding-left: 15px;
@@ -49,6 +56,7 @@
 }
 
 .team {
+  color: #8b1638;
   border-style: solid;
   width: 90px;
   height: 50px;
@@ -56,10 +64,11 @@
 }
 
 .land {
+  color: #8b1638;
   border-style: solid;
-  background-color: white;
+  background-color: #f1eee7;
   width:250px;
-  height:200px;
+  height:285px;
   align-items: center;
 }
 
@@ -78,9 +87,9 @@
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: Qatar2022Arabic;
   border-collapse: collapse;
-  background-color: white;
+  background-color: #f1eee7;
 }
 
 td, th {
@@ -100,4 +109,9 @@ input {
 image {
   width: 100px;
   height :100px;
+}
+
+.knockoutrondes {
+  font-family: Qatar2022Arabic;
+  text-align: center;
 }

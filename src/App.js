@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Teams from "./pages/Teams";
 import Contact from "./pages/Contact";
 import Voorspel from "./pages/Voorspel";
+import Knockout from "./pages/Knockout";
 import {
   BrowserRouter as Router,
   Route,
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="Teams" element={<Teams />} />
           <Route path="Contact" element={<Contact />} />
           <Route path="Voorspel" element={<Voorspel />} />
+          <Route path="knockout" element={<Knockout />} />
         </Route>
       </Routes>
     </Router>

@@ -25,7 +25,7 @@ const Home = () => {
        activeSlideIndex={activeSlide}
        activeSlideProps={{
          style: {
-           background: "lightblue"
+           background: "#f1eee7"
          }
        }}
        onRequestChange={setActiveSlide}
@@ -72,10 +72,9 @@ const Home = () => {
 >
 <div
 style={{
-  background: "lightblue",
+  background: "#f1eee7",
   width: 300,
   height: 200,
-  border: "20px solid white",
   textAlign: "center",
   lineHeight: "140px",
   boxSizing: "border-box",
@@ -90,10 +89,9 @@ Voorspel nu alle wedstijden!
 
 <div
   style={{
-    background: "lightblue",
+    background: "#f1eee7",
     width: 300,
     height: 200,
-    border: "20px solid white",
     textAlign: "center",
     lineHeight: "140px",
     boxSizing: "border-box",
@@ -110,10 +108,9 @@ Contactgegevens!
 
 <div
   style={{
-    background: "lightblue",
+    background: "#f1eee7",
     width: 300,
     height: 200,
-    border: "20px solid white",
     textAlign: "center",
     lineHeight: "140px",
     boxSizing: "border-box",

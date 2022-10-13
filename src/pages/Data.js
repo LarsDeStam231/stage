@@ -110,7 +110,28 @@ const matches = [
 {id: '45', bracket: 'H', teamone: 'KOR', teamtwo: 'GHA', date: '28-11-2022', time:'14:00'},
 {id: '46', bracket: 'H', teamone: 'POR', teamtwo: 'URU', date: '28-11-2022', time:'20:00'},
 {id: '47', bracket: 'H', teamone: 'GHA', teamtwo: 'URU', date: '02-12-2022', time:'16:00'},
-{id: '48', bracket: 'H', teamone: 'KOR', teamtwo: 'POR', date: '02-12-2022', time:'16:00'}
+{id: '48', bracket: 'H', teamone: 'KOR', teamtwo: 'POR', date: '02-12-2022', time:'16:00'},
+
+{id: '49', bracket: 'last16', teamone: '', teamtwo: '', date: '03-12-2022', time:'16:00'},
+{id: '50', bracket: 'last16', teamone: '', teamtwo: '', date: '03-12-2022', time:'20:00'},
+{id: '51', bracket: 'last16', teamone: '', teamtwo: '', date: '04-12-2022', time:'16:00'},
+{id: '52', bracket: 'last16', teamone: '', teamtwo: '', date: '04-12-2022', time:'20:00'},
+{id: '53', bracket: 'last16', teamone: '', teamtwo: '', date: '05-12-2022', time:'16:00'},
+{id: '54', bracket: 'last16', teamone: '', teamtwo: '', date: '05-12-2022', time:'20:00'},
+{id: '55', bracket: 'last16', teamone: '', teamtwo: '', date: '06-12-2022', time:'16:00'},
+{id: '56', bracket: 'last16', teamone: '', teamtwo: '', date: '06-12-2022', time:'20:00'},
+
+{id: '57', bracket: 'quarter', teamone: '', teamtwo: '', date: '09-12-2022', time:'16:00'},
+{id: '58', bracket: 'quarter', teamone: '', teamtwo: '', date: '09-12-2022', time:'20:00'},
+{id: '59', bracket: 'quarter', teamone: '', teamtwo: '', date: '10-12-2022', time:'16:00'},
+{id: '60', bracket: 'quarter', teamone: '', teamtwo: '', date: '10-12-2022', time:'20:00'},
+
+{id: '61', bracket: 'semi', teamone: '', teamtwo: '', date: '13-12-2022', time:'20:00'},
+{id: '62', bracket: 'semi', teamone: '', teamtwo: '', date: '14-12-2022', time:'20:00'},
+
+{id: '63', bracket: 'loserfinal', teamone: '', teamtwo: '', date: '17-12-2022', time:'16:00'},
+
+{id: '64', bracket: 'final', teamone: '', teamtwo: '', date: '18-12-2022', time:'16:00'}
 ]
 ;
 
