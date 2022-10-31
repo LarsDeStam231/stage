@@ -41,8 +41,7 @@ const Voorspel = () => {
 //hierin geef ik aan dat elk team standaard een waarde heeft van 0 gespeelde wedstrijden
 
     voorsp.filter((match) => match.team1 && match.team2).map((voor) => {
-      const match = matches.find((match) => match.id == voor.id)
-console.log(match)
+      const match = matches.filter((match) => match.stage == 'groupstage').find((match) => match.id == voor.id)
 //hierin wil ik dat hij door de wedstrijden en voorspellingen heen gaat en gaat checken of of er bij de de match van team1 en team2 een waarde is ingevoerd
 //en dat doet ie aan de hand van de waardes die je invult te matchen met de wedstrijd van hetzelfde land
       const teamone = teamlist.find(team => team.id == match.teamone)
@@ -53,7 +52,6 @@ console.log(match)
 
 //hierin staat aangegeven dat zodra er bij beide waardes wat is ingevuld de gespeelde wedstrijden +1 gaan
 
-      console.log(voor)
 
       if (voor.team1 > voor.team2) {
         teamone.points+=3
@@ -88,7 +86,6 @@ console.log(match)
 //dit is een test en ik voeg daar wat bij
 
 
-      console.log(teamone, teamtwo, match);
 
   });
 
@@ -101,7 +98,7 @@ console.log(match)
   <br />
   <br />
 
-  {poules.map(poule => <button
+  {poules.filter(poule => poule.fase == "poule").map(poule => <button
   type="button"
   onClick={() => setPoule(poule.id)}
   >{poule.description}</button>)}
@@ -151,6 +148,7 @@ console.log(match)
       <th>goals tegen</th>
       <th>doelsaldo</th>
     </tr>
+
     {teamlist.filter((team) => team.poule == poule).sort((a,b)=>b.points - a.points || b.gd - a.gd || b.scored - a.scored || a.conceded - b.conceded).map((team, index) => {
 
       return(

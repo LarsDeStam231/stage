@@ -11,6 +11,27 @@ button {
 
 }
 
+.knockoutrondes {
+  background: #f1eee7;
+  display:
+}
+
+.laatstezestien {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.laatste16 {
+  background: #f1eee7;
+      float: left;
+      padding: 10px 20px;
+      width: 400px;
+      margin-left: 10%;
+      display: table; /*vertical-centering part 1*/
+      vertical-align: middle; /*vertical centering part 2*/
+}
+
 .prediction {
   width: 300px;
   margin: auto;
@@ -67,23 +88,26 @@ button {
   color: #8b1638;
   border-style: solid;
   background-color: #f1eee7;
-  width:250px;
-  height:285px;
+  width:200px;
+  height:280px;
   align-items: center;
 }
 
 .info {
   align-items: center;
+  display: inline-block;
 }
+
 .record {
   margin: auto;
-  display: inline-flex;
+  display: inline-block;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 1300px;
   padding: 5px;
+  vertical-align: top;
 }
 
 table {
@@ -114,4 +138,43 @@ image {
 .knockoutrondes {
   font-family: Qatar2022Arabic;
   text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+body {
+ font-size: 12px;
+}
+.vak {
+ width: 80px;
+ height: 255px;
+}
+
+.land {
+ width: 150px;
+ height: 210px;
+ font-size: 12px;
+}
+
+.team{
+ width: 65px;
+ height: 35px;
+ font-size: 10px;
+}
+
+h2, h1 {
+ font-size: 16px;
+}
+
+img.photo {
+ width: 15px;
+ height:15px;
+}
+
+.record {
+ width: 180px;
+ height: 950px;
+}
+
 }

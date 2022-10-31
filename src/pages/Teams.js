@@ -7,7 +7,7 @@ const Teams = () => {
     <div class="container">
       <h1>Alle informatie</h1>
     <div class="poulelijst">
-    {poules.map((poule) => {
+    {poules.filter(poule => poule.fase == 'poule').map((poule) => {
       return (
         <div class="vak">
           <h2>{poule.description}</h2>
@@ -20,7 +20,7 @@ const Teams = () => {
     </div>
 
       <div class="info">
-        {poules.map((poule)  => {
+        {poules.filter(poule => poule.fase == 'poule').map((poule)  => {
           return(
             <div class="record">
               <h2>{poule.description}</h2>
