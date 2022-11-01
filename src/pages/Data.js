@@ -17,45 +17,45 @@ const poules = [
 ;
 
 const teamlist = [
-  {id: 'NED', description: 'Nederland', flag: "logos/NED.png", poule: 'A', captain: 'Virgil van Dijk', ranking: '10', lastplacement:'de qualificatie', highestplacement: 'plek 2', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'ECU', description: 'Ecuador', flag: "logos/ECU.png", poule: 'A', captain: 'Enner Valencia', ranking: '46', lastplacement:'de qualificatie', highestplacement: 'plek 2', currentplacement: '', points: '0', played: '0', played: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'SEN', description: 'Senegal', flag: "logos/SEN.png", poule: 'A', captain: 'Kalidou Koulibaly', ranking: '20', lastplacement:'de groepsfase', highestplacement: 'de kwartfinale', currentplacement: '', points: '0', played: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'QAT', description: 'Qatar', flag: "logos/QAT.png", poule: 'A', captain: 'Hassan Al-Haydos', ranking: '51', lastplacement:'de qualificatie', highestplacement: 'de qualificatie', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'NED', description: 'Nederland', flag: "logos/NED.png", poule: 'A', captain: 'Virgil van Dijk', ranking: '10', lastplacement:'de qualificatie', highestplacement: 'plek 2', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'ECU', description: 'Ecuador', flag: "logos/ECU.png", poule: 'A', captain: 'Enner Valencia', ranking: '46', lastplacement:'de qualificatie', highestplacement: 'plek 2', currentplacement: 0, points: 0, played: 0, played: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'SEN', description: 'Senegal', flag: "logos/SEN.png", poule: 'A', captain: 'Kalidou Koulibaly', ranking: '20', lastplacement:'de groepsfase', highestplacement: 'de kwartfinale', currentplacement: 0, points: 0, played: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'QAT', description: 'Qatar', flag: "logos/QAT.png", poule: 'A', captain: 'Hassan Al-Haydos', ranking: '51', lastplacement:'de qualificatie', highestplacement: 'de qualificatie', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
-  {id: 'ENG', description: 'Engeland', flag: "logos/ENG.png", poule: 'B', captain: 'Harry Kane', ranking: '5', lastplacement:'plek 4', highestplacement: 'plek 1', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'IRN', description: 'Iran', flag: "logos/IRN.png", poule: 'B', captain: 'Ehsan Hajsafi', ranking: '21', lastplacement:'de groepsfase', highestplacement: 'de groepsfase', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'USA', description: 'de Verenigde Staten', flag: "logos/USA.png", poule: 'B', captain: 'Tyler Adams', ranking: '15', lastplacement:'de qualificatie', highestplacement: 'plek 3', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'WAL', description: 'Wales', flag: "logos/WAL.png", poule: 'B', captain: 'Gareth Bale', ranking: '18', lastplacement:'de qualificatie', highestplacement: 'de kwartfinale', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'ENG', description: 'Engeland', flag: "logos/ENG.png", poule: 'B', captain: 'Harry Kane', ranking: '5', lastplacement:'plek 4', highestplacement: 'plek 1', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'IRN', description: 'Iran', flag: "logos/IRN.png", poule: 'B', captain: 'Ehsan Hajsafi', ranking: '21', lastplacement:'de groepsfase', highestplacement: 'de groepsfase', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'USA', description: 'de Verenigde Staten', flag: "logos/USA.png", poule: 'B', captain: 'Tyler Adams', ranking: '15', lastplacement:'de qualificatie', highestplacement: 'plek 3', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'WAL', description: 'Wales', flag: "logos/WAL.png", poule: 'B', captain: 'Gareth Bale', ranking: '18', lastplacement:'de qualificatie', highestplacement: 'de kwartfinale', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
-  {id: 'ARG', description: 'Argentinië', flag: "logos/ARG.png", poule: 'C', captain: 'Lionel Messi', ranking: '4', lastplacement:'de laatste 16', highestplacement: 'plek 1', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'SAU', description: 'Saudi-Arabië', flag: "logos/SAU.png", poule: 'C', captain: 'Salman Al-Faraj', ranking: '49', lastplacement:'de groepsfase', highestplacement: 'de laatste 16', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'MEX', description: 'Mexico', flag: "logos/MEX.jpg", poule: 'C', captain: 'Andrés Guardado', ranking: '9', lastplacement:'de laatste 16', highestplacement: 'de kwartfinale', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'POL', description: 'Polen', flag: "logos/POL.png", poule: 'C', captain: 'Robert Lewandowski', ranking: '26', lastplacement:'de groepsfase', highestplacement: 'plek 3', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'ARG', description: 'Argentinië', flag: "logos/ARG.png", poule: 'C', captain: 'Lionel Messi', ranking: '4', lastplacement:'de laatste 16', highestplacement: 'plek 1', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'SAU', description: 'Saudi-Arabië', flag: "logos/SAU.png", poule: 'C', captain: 'Salman Al-Faraj', ranking: '49', lastplacement:'de groepsfase', highestplacement: 'de laatste 16', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'MEX', description: 'Mexico', flag: "logos/MEX.jpg", poule: 'C', captain: 'Andrés Guardado', ranking: '9', lastplacement:'de laatste 16', highestplacement: 'de kwartfinale', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'POL', description: 'Polen', flag: "logos/POL.png", poule: 'C', captain: 'Robert Lewandowski', ranking: '26', lastplacement:'de groepsfase', highestplacement: 'plek 3', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
-  {id: 'FRA', description: 'Frankrijk', flag: "logos/FRA.png", poule: 'D', captain: 'Hugo Lloris', ranking: '3', lastplacement:'plek 1', highestplacement: 'plek 1', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'AUS', description: 'Australië', flag: "logos/AUS.png", poule: 'D', captain: 'Matthew Ryan', ranking: '42', lastplacement:'de groepsfase', highestplacement: 'de laatste 16', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'DEN', description: 'Denemarken', flag: "logos/DEN.png", poule: 'D', captain: 'Simon Kjear', ranking: '11', lastplacement:'de laatste 16', highestplacement: 'de kwartfinale', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'TUN', description: 'Tunesië', flag: "logos/TUN.png", poule: 'D', captain: 'Youssef Msakni', ranking: '35', lastplacement:'de groepsfase', highestplacement: 'de groepsfase', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'FRA', description: 'Frankrijk', flag: "logos/FRA.png", poule: 'D', captain: 'Hugo Lloris', ranking: '3', lastplacement:'plek 1', highestplacement: 'plek 1', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'AUS', description: 'Australië', flag: "logos/AUS.png", poule: 'D', captain: 'Matthew Ryan', ranking: '42', lastplacement:'de groepsfase', highestplacement: 'de laatste 16', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'DEN', description: 'Denemarken', flag: "logos/DEN.png", poule: 'D', captain: 'Simon Kjear', ranking: '11', lastplacement:'de laatste 16', highestplacement: 'de kwartfinale', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'TUN', description: 'Tunesië', flag: "logos/TUN.png", poule: 'D', captain: 'Youssef Msakni', ranking: '35', lastplacement:'de groepsfase', highestplacement: 'de groepsfase', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
-  {id: 'ESP', description: 'Spanje', flag: "logos/ESP.png", poule: 'E', captain: 'Sergio Busquets', ranking: '7', lastplacement:'de laatste 16', highestplacement: 'plek 1', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'CRC', description: 'Costa Rica', flag: "logos/CRC.png", poule: 'E', captain: 'Bryan Ruiz', ranking: '31', lastplacement:'de groepsfase', highestplacement: 'de kwartfinale', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'GER', description: 'Duitsland', flag: "logos/GER.png", poule: 'E', captain: 'Manuel Neuer', ranking: '12', lastplacement:'de groepsfase', highestplacement: 'plek 1', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'JAP', description: 'Japan', flag: "logos/JAP.png", poule: 'E', captain: 'Maya Yoshida', ranking: '23', lastplacement:'de laatste 16', highestplacement: 'de laatste 16', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'ESP', description: 'Spanje', flag: "logos/ESP.png", poule: 'E', captain: 'Sergio Busquets', ranking: '7', lastplacement:'de laatste 16', highestplacement: 'plek 1', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'CRC', description: 'Costa Rica', flag: "logos/CRC.png", poule: 'E', captain: 'Bryan Ruiz', ranking: '31', lastplacement:'de groepsfase', highestplacement: 'de kwartfinale', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'GER', description: 'Duitsland', flag: "logos/GER.png", poule: 'E', captain: 'Manuel Neuer', ranking: '12', lastplacement:'de groepsfase', highestplacement: 'plek 1', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'JAP', description: 'Japan', flag: "logos/JAP.png", poule: 'E', captain: 'Maya Yoshida', ranking: '23', lastplacement:'de laatste 16', highestplacement: 'de laatste 16', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
-  {id: 'BEL', description: 'België', flag: "logos/BEL.png", poule: 'F', captain: 'Eden Hazard', ranking: '2', lastplacement:'plek 3', highestplacement: 'plek 3', points: '0', currentplacement: '', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'CAN', description: 'Canada', flag: "logos/CAN.png", poule: 'F', captain: 'Atiba Hutchinson', ranking: '38', lastplacement:'de qualificatie', highestplacement: 'de groepsfase', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'MAR', description: 'Marokko', flag: "logos/MAR.png", poule: 'F', captain: 'Romain Saïss', ranking: '24', lastplacement:'de groepsfase', highestplacement: 'de laatste 16', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'CRO', description: 'Kroatië', flag: "logos/CRO.png", poule: 'F', captain: 'Luka Modric', ranking: '16', lastplacement:'plek 2', highestplacement: 'plek 2', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'BEL', description: 'België', flag: "logos/BEL.png", poule: 'F', captain: 'Eden Hazard', ranking: '2', lastplacement:'plek 3', highestplacement: 'plek 3', points: 0, currentplacement: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'CAN', description: 'Canada', flag: "logos/CAN.png", poule: 'F', captain: 'Atiba Hutchinson', ranking: '38', lastplacement:'de qualificatie', highestplacement: 'de groepsfase', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'MAR', description: 'Marokko', flag: "logos/MAR.png", poule: 'F', captain: 'Romain Saïss', ranking: '24', lastplacement:'de groepsfase', highestplacement: 'de laatste 16', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'CRO', description: 'Kroatië', flag: "logos/CRO.png", poule: 'F', captain: 'Luka Modric', ranking: '16', lastplacement:'plek 2', highestplacement: 'plek 2', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
-  {id: 'BRA', description: 'Brazilië', flag: "logos/BRA.png", poule: 'G', captain: 'Casemiro', ranking: '1', lastplacement:'de kwartfinale', highestplacement: 'plek 1', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'SER', description: 'Servië', flag: "logos/SER.png", poule: 'G', captain: 'Dusan Tadic', ranking: '25', lastplacement:'de groepsfase', highestplacement: 'plek 4', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'SUI', description: 'Zwitserland', flag: "logos/SUI.png", poule: 'G', captain: 'Granit Xhaka', ranking: '14', lastplacement:'laatste 16', highestplacement: 'de kwartfinale', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'CMR', description: 'Kameroen', flag: "logos/CMR.png", poule: 'G', captain: 'Vincent Aboubakar', ranking: '37', lastplacement:'de qualificatie', highestplacement: 'de kwartfinale', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'BRA', description: 'Brazilië', flag: "logos/BRA.png", poule: 'G', captain: 'Casemiro', ranking: '1', lastplacement:'de kwartfinale', highestplacement: 'plek 1', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'SER', description: 'Servië', flag: "logos/SER.png", poule: 'G', captain: 'Dusan Tadic', ranking: '25', lastplacement:'de groepsfase', highestplacement: 'plek 4', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'SUI', description: 'Zwitserland', flag: "logos/SUI.png", poule: 'G', captain: 'Granit Xhaka', ranking: '14', lastplacement:'laatste 16', highestplacement: 'de kwartfinale', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'CMR', description: 'Kameroen', flag: "logos/CMR.png", poule: 'G', captain: 'Vincent Aboubakar', ranking: '37', lastplacement:'de qualificatie', highestplacement: 'de kwartfinale', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
-  {id: 'POR', description: 'Portugal', flag: "logos/POR.png", poule: 'H', captain: 'Cristiano Ronaldo', ranking: '8', lastplacement:'de laatste 16', highestplacement: 'plek 3', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'GHA', description: 'Ghana', flag: "logos/GHA.png", poule: 'H', captain: 'André Ayew', ranking: '60', lastplacement:'de qualificatie', highestplacement: 'plek 5', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'URU', description: 'Uruguay', flag: "logos/URU.png", poule: 'H', captain: 'Diego Godin', ranking: '13', lastplacement:'de kwartfinale', highestplacement: 'plek 1', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
-  {id: 'KOR', description: 'Zuid-Korea', flag: "logos/KOR.png", poule: 'H', captain: 'Heung-min Son', ranking: '29', lastplacement:'de groepsfase', highestplacement: 'plek 4', currentplacement: '', points: '0', played: '0', wins: '0', losses: '0', draws:'0', scored: '0', conceded: '0', gd: '0'},
+  {id: 'POR', description: 'Portugal', flag: "logos/POR.png", poule: 'H', captain: 'Cristiano Ronaldo', ranking: '8', lastplacement:'de laatste 16', highestplacement: 'plek 3', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'GHA', description: 'Ghana', flag: "logos/GHA.png", poule: 'H', captain: 'André Ayew', ranking: '60', lastplacement:'de qualificatie', highestplacement: 'plek 5', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'URU', description: 'Uruguay', flag: "logos/URU.png", poule: 'H', captain: 'Diego Godin', ranking: '13', lastplacement:'de kwartfinale', highestplacement: 'plek 1', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
+  {id: 'KOR', description: 'Zuid-Korea', flag: "logos/KOR.png", poule: 'H', captain: 'Heung-min Son', ranking: '29', lastplacement:'de groepsfase', highestplacement: 'plek 4', currentplacement: 0, points: 0, played: 0, wins: 0, losses: 0, draws:0, scored: 0, conceded: 0, gd: 0},
 
 ]
 ;
@@ -117,26 +117,26 @@ const matches = [
 {id: '47', stage:'groupstage', bracket: 'H', teamone: 'GHA', teamtwo: 'URU', date: '02-12-2022', time:'16:00'},
 {id: '48', stage:'groupstage', bracket: 'H', teamone: 'KOR', teamtwo: 'POR', date: '02-12-2022', time:'16:00'},
 
-{id: '49', stage:'knockoutstage', bracket: 'L16', teamone: 'SEN', teamtwo: 'WAL', date: '03-12-2022', time:'16:00'},
-{id: '50', stage:'knockoutstage', bracket: 'L16', teamone: 'ARG', teamtwo: 'AUS', date: '03-12-2022', time:'20:00'},
-{id: '51', stage:'knockoutstage', bracket: 'L16', teamone: 'DEN', teamtwo: 'MEX', date: '04-12-2022', time:'16:00'},
-{id: '52', stage:'knockoutstage', bracket: 'L16', teamone: 'ENG', teamtwo: 'NED', date: '04-12-2022', time:'20:00'},
-{id: '53', stage:'knockoutstage', bracket: 'L16', teamone: 'GER', teamtwo: 'CRO', date: '05-12-2022', time:'16:00'},
-{id: '54', stage:'knockoutstage', bracket: 'L16', teamone: 'BRA', teamtwo: 'URU', date: '05-12-2022', time:'20:00'},
-{id: '55', stage:'knockoutstage', bracket: 'L16', teamone: 'BEL', teamtwo: 'ESP', date: '06-12-2022', time:'16:00'},
-{id: '56', stage:'knockoutstage', bracket: 'L16', teamone: 'POR', teamtwo: 'SER', date: '06-12-2022', time:'20:00'},
+{id: '49', stage:'knockoutstage', bracket: 'L16', poule1: "A", position1: 1, teamone: '', score1: '', poule2: "B", position2: 2, teamtwo: '', score2: '', date: '03-12-2022', time:'16:00'},
+{id: '50', stage:'knockoutstage', bracket: 'L16', poule1: "C", position1: 1, teamone: '', score1: '', poule2: "D", position2: 2, teamtwo: '', score2: '', date: '03-12-2022', time:'20:00'},
+{id: '51', stage:'knockoutstage', bracket: 'L16', poule1: "E", position1: 1, teamone: '', score1: '', poule2: "F", position2: 2, teamtwo: '', score2: '', date: '05-12-2022', time:'16:00'},
+{id: '52', stage:'knockoutstage', bracket: 'L16', poule1: "G", position1: 1, teamone: '', score1: '', poule2: "H", position2: 2, teamtwo: '', score2: '', date: '05-12-2022', time:'20:00'},
+{id: '53', stage:'knockoutstage', bracket: 'L16', poule1: "D", position1: 1, teamone: '', score1: '', poule2: "C", position2: 2, teamtwo: '', score2: '', date: '04-12-2022', time:'16:00'},
+{id: '54', stage:'knockoutstage', bracket: 'L16', poule1: "B", position1: 1, teamone: '', score1: '', poule2: "A", position2: 2, teamtwo: '', score2: '', date: '04-12-2022', time:'20:00'},
+{id: '55', stage:'knockoutstage', bracket: 'L16', poule1: "F", position1: 1, teamone: '', score1: '', poule2: "E", position2: 2, teamtwo: '', score2: '', date: '06-12-2022', time:'16:00'},
+{id: '56', stage:'knockoutstage', bracket: 'L16', poule1: "H", position1: 1, teamone: '', score1: '', poule2: "G", position2: 2, teamtwo: '', score2: '', date: '06-12-2022', time:'20:00'},
 
-{id: '57', stage:'knockoutstage', bracket: 'Q', teamone: '', teamtwo: '', date: '09-12-2022', time:'16:00'},
-{id: '58', stage:'knockoutstage', bracket: 'Q', teamone: '', teamtwo: '', date: '09-12-2022', time:'20:00'},
-{id: '59', stage:'knockoutstage', bracket: 'Q', teamone: '', teamtwo: '', date: '10-12-2022', time:'16:00'},
-{id: '60', stage:'knockoutstage', bracket: 'Q', teamone: '', teamtwo: '', date: '10-12-2022', time:'20:00'},
+{id: '57', stage:'knockoutstage', bracket: 'Q', winner1: 53, teamone: '', winner2: 54, teamtwo: '', date: '09-12-2022', time:'16:00'},
+{id: '58', stage:'knockoutstage', bracket: 'Q', winner1: 49, teamone: '', winner2: 50, teamtwo: '', date: '09-12-2022', time:'20:00'},
+{id: '59', stage:'knockoutstage', bracket: 'Q', winner1: 55, teamone: '', winner2: 56, teamtwo: '', date: '10-12-2022', time:'16:00'},
+{id: '60', stage:'knockoutstage', bracket: 'Q', winner1: 51, teamone: '', winner2: 52, teamtwo: '', date: '10-12-2022', time:'20:00'},
 
-{id: '61', stage:'knockoutstage', bracket: 'S', teamone: '', teamtwo: '', date: '13-12-2022', time:'20:00'},
-{id: '62', stage:'knockoutstage', bracket: 'S', teamone: '', teamtwo: '', date: '14-12-2022', time:'20:00'},
+{id: '61', stage:'knockoutstage', bracket: 'S', winner1: 57, teamone: '', winner2: 58, teamtwo: '', date: '13-12-2022', time:'20:00'},
+{id: '62', stage:'knockoutstage', bracket: 'S', winner1: 59, teamone: '', winner2: 60, teamtwo: '', date: '14-12-2022', time:'20:00'},
 
-{id: '63', stage:'knockoutstage', bracket: 'LF', teamone: '', teamtwo: '', date: '17-12-2022', time:'16:00'},
+{id: '63', stage:'knockoutstage', bracket: 'LF', loser1: 61, teamone: '', loser2: 62, teamtwo: '', date: '17-12-2022', time:'16:00'},
 
-{id: '64', stage:'knockoutstage', bracket: 'Fi', teamone: '', teamtwo: '', date: '18-12-2022', time:'16:00'}
+{id: '64', stage:'knockoutstage', bracket: 'Fi', winner1: 61, teamone: '', winner2: 62, teamtwo: '', date: '18-12-2022', time:'16:00'}
 ]
 ;
 

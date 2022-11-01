@@ -13,7 +13,6 @@ button {
 
 .knockoutrondes {
   background: #f1eee7;
-  display:
 }
 
 .laatstezestien {
@@ -26,10 +25,9 @@ button {
   background: #f1eee7;
       float: left;
       padding: 10px 20px;
-      width: 400px;
-      margin-left: 10%;
-      display: table; /*vertical-centering part 1*/
-      vertical-align: middle; /*vertical centering part 2*/
+      width: 227px;
+      margin-left: 10px;;
+
 }
 
 .prediction {

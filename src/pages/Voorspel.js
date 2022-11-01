@@ -28,8 +28,7 @@ const Voorspel = () => {
     // hierin word de waarde gemaakt van wat op het bovenste deel van de pagina opgeslagen word
 
 
-    console.log(voorsp)
-
+  //  console.log(voorsp)
     teamlist.map(team => team.played = 0);
     teamlist.map(team => team.points = 0);
     teamlist.map(team => team.wins = 0);
@@ -43,7 +42,9 @@ const Voorspel = () => {
     voorsp.filter((match) => match.team1 && match.team2).map((voor) => {
       const match = matches.filter((match) => match.stage == 'groupstage').find((match) => match.id == voor.id)
 //hierin wil ik dat hij door de wedstrijden en voorspellingen heen gaat en gaat checken of of er bij de de match van team1 en team2 een waarde is ingevoerd
-//en dat doet ie aan de hand van de waardes die je invult te matchen met de wedstrijd van hetzelfde land
+//en dat doet ie aan de hand van de waardes die je invult te matchen met de wedstrijd van dezelfde landen
+      if (!match) return;
+console.log(voor, match)
       const teamone = teamlist.find(team => team.id == match.teamone)
       const teamtwo = teamlist.find(team => team.id == match.teamtwo)
 
@@ -87,9 +88,16 @@ const Voorspel = () => {
 
 
 
+  console.log(teamlist)
+
   });
 
+  teamlist.filter((team) => team.poule == poule).sort((a,b)=>b.points - a.points || b.gd - a.gd || b.scored - a.scored || a.conceded - b.conceded).map((team, index) => {
 
+  team.currentplacement = index+1;
+  })
+    localStorage.setItem('teamlist', JSON.stringify(teamlist))
+console.log('!!!!', teamlist)
   }
 
   return (
@@ -176,14 +184,12 @@ const Voorspel = () => {
 
 </div>
 
-
-
 //maak een button die de bovenste 2 tabellen pushed naar een andere tabellen
 //gebruik hiervoor localStorage
 
 //hier staat de tabel met alle gegevens die gemaakt zijn uit de score van de vorige tabel
 )
 }
-
+console.log(teamlist)
 
 export default Voorspel;
