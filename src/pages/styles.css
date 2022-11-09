@@ -15,7 +15,7 @@ button {
   background: #f1eee7;
 }
 
-.laatstezestien {
+.laatstezestien, .kwartfinales {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -26,8 +26,40 @@ button {
       float: left;
       padding: 10px 20px;
       width: 227px;
-      margin-left: 10px;;
+      margin-left: 10px;
 
+}
+
+.kwartfinales, .halvefinales {
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.kwartfinale {
+  display: inline-block;
+  background: #f1eee7;
+    float: left;
+    width: 227px;
+    margin-top: 40px;
+    margin-left: 125px;
+    margin-right: 120px;
+}
+
+.halvefinale {
+  display: inline-block;
+  background: #f1eee7;
+  float: left;
+  width: 227px;
+  margin-top: 40px;
+  padding-left: 370px;
+  padding-right: 580px;
+
+}
+
+.grotefinale {
+  padding-top: 40px;
+  display: inline-block;
 }
 
 .prediction {

@@ -97,6 +97,7 @@ console.log(voor, match)
   team.currentplacement = index+1;
   })
     localStorage.setItem('teamlist', JSON.stringify(teamlist))
+    localStorage.setItem('matches', JSON.stringify(matches))
 console.log('!!!!', teamlist)
   }
 
@@ -116,7 +117,7 @@ console.log('!!!!', teamlist)
     const teamone = teamlist.find(team => team.id == match.teamone)
     const teamtwo = teamlist.find(team => team.id == match.teamtwo)
     var item = voorspelling.find((thisitem) => thisitem.id == match.id) || {id: match.id, team1: null, team2: null};
-    //console.log(item, match);
+    console.log(match);
     //hier zorg ik dat 2 arrays aan elkaar verbonden zijn zodat de code weet welke landen die moet printen op de pagina
     return (<table class="prediction" key={'match_'+match.id}>
   <tr>
@@ -126,9 +127,9 @@ console.log('!!!!', teamlist)
   </tr>
   <tr>
     <td><img className="photo" src={teamone.flag} /><label for="team1">{match.teamone}<br /></label>
-        <input type="number" id={"team1_"+match.id} name="team1" onChange={handleEditChange} value={item.team1}/></td>
+        <input type="number" id={"team1_"+match.id} min="0" name="team1" onChange={handleEditChange} value={item.team1}/></td>
     <td><label for="team2">{match.teamtwo}<img className="photo" src={teamtwo.flag} /><br /></label>
-        <input type="number" id={"team2_"+match.id} name="team2"  onChange={handleEditChange} value={item.team2} /></td>
+        <input type="number" id={"team2_"+match.id} min="0" name="team2"  onChange={handleEditChange} value={item.team2} /></td>
     <td>{match.date}<br />{match.time}</td>
   </tr>
   <br />
